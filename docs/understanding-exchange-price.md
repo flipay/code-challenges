@@ -1,8 +1,8 @@
 ## Understanding Exchange Price Calculation
 
-Let's talk about an exchange market knowledge. When we buy, it means someone is selling to us. When we want to calculate the price, we need to look at the prices others set in the market which is in "Order Book". Order Book consists of 2 sides, they are called "Bid" and "Ask". Bid side means the others are buying from us. And ask side mean others are selling.
+Let's talk about an exchange market knowledge. When we buy, it means someone is selling to us. When we want to calculate the price, we need to look at the prices others set in the market which is in "Order Book". Order Book consists of 2 sides, they are called "Bid" and "Ask". Bid side means the others are buying from us. And ask sides mean others are selling.
 
-The buying (bid) and selling (ask) request are called "Order". So if we want to buy Bitcoin (Input: USD, Output: BTC), we need to take a look at the Order on selling or ask side (order_book.asks)
+The buying (bid) and selling (ask) requests are called "Order". So if we want to buy Bitcoin (Input: USD, Output: BTC), we need to take a look at the Order on selling or ask side (order_book.asks)
 
 For Example, we have these input to buy Bitcoin
 
@@ -32,7 +32,7 @@ And we get this data from Coinbase Pro
 }
 ```
 
-Looking from the ask side, there will be several orders ordered from best to worse price. So we should pick order to check from the first one. From the [API documentation](https://docs.pro.coinbase.com/#get-product-order-book) `["5000", "2", "1"]` means there is 2 BTC selling at 5,000 USD/BTC. So if we buy BTC with 1,000 USD, we will receive 0.2 BTC.
+Looking from the ask side, there will be several orders sorted from best to worse price. So we should pick order to check from the first one. From the [API documentation](https://docs.pro.coinbase.com/#get-product-order-book) `["5000", "2", "1"]` means there is 2 BTC selling at 5,000 USD/BTC. So if we buy BTC with 1,000 USD, we will receive 0.2 BTC.
 
 ```
 Order 1 is selling 2 BTC @5,000USD/BTC
