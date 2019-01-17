@@ -1,6 +1,6 @@
 # Flipay Code Challenge
 
-We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **Elixir or NodeJS** and send us the link to your repository to review at career@flipay.co.
+We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **Elixir or NodeJS** and send us the link to your repository to career@flipay.co
 
 ## Challenge
 
@@ -8,7 +8,7 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 You got into the team which is building the cryptocurrency exchange platform for users. The users can use the platform to buy and sell cryptocurrency through any existing exchanges.
 
-The team got the idea to let user buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing system to plug to the existing system.
+The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing system to plug to the existing system.
 
 ### Requirements
 
@@ -23,12 +23,12 @@ The application will receive these input
 
 And expect to send the output
 
-1. Price
+1. Average Price
 2. Timestamp
 
-The possible "Input-Output assets" are `BTC-USD`, `ETH-USD`, `XRP-USD`. And it can be reversed. Which means we have 6 combinations (3 pairs and reverse of 3 pairs) of input and output assets.
+The possible "Input-Output assets" are `BTC-USD`, `ETH-USD`. And it can be reversed. Which means we have 4 combinations (2 pairs and reverse of 2 pairs) of input and output assets.
 
-"Input Amount" will always be the same currency as "Input Asset". For example, a user wants to buy BTC using 1,000 USD. The input will be like this.
+"Input Amount" will always be the same currency as "Input Asset". For example, a user wants to buy BTC using 1,000 USD. The input will be like this. (This input is a sample, no need to implement this exact input).
 
 ```json
 {
@@ -39,9 +39,13 @@ The possible "Input-Output assets" are `BTC-USD`, `ETH-USD`, `XRP-USD`. And it c
 }
 ```
 
-The "Price" in the output will be determined by the rate in USD, which means for `BTC-USD`, it will be the number of `USD amount / BTC amount`.
+### How to calculate Average Price?
 
-Note that the reason we need "Input amount" is because the "Price" can vary depends on how much input amount users give.
+The "Average Price" in the output will be determined by the ratio of input and output amount in USD. In the case of `BTC-USD`, it will be the number of `USD amount / BTC amount`. And the output amount will be determined by active orders in the order book.
+
+Don't worry if this confused you, you can take a look at our explanation in [Understanding exchange price caculation](./docs/understanding-exchange-price.md).
+
+Note that the reason we need "Input amount" is because the "Average Price" can vary depends on how much input amount users give.
 
 ### Resources
 
@@ -55,7 +59,7 @@ And we value these principles in the development.
 
 **• Security.** To build trust in the product, security is the most important aspect. A financial company can go out of business in a single attack.  
 **• Simplicity.** It is easy to build complex things. We should strive for simplicity so that we can maintain the speed of change.  
-**• Clarity.** In the team collaboration, we rarely have the exact same context in the communication. Writing code with a clear objective and good readability helps team effectiveness.  
+**• Clarity.** In the team collaboration, we rarely have the exact same context in the communication. Writing code with a clear objective and good readability help team effectiveness.  
 **• Reliability.** What can go wrong, will go wrong. But not with the system which has been through the well-thought process of risk and error management.
 
 Certainly, we never expected anything to be perfect, we need to be fast to maximize the learning to be able to maximize the values we can deliver to the world. And feel free to be creative on the solution as long as it satisfies the objective of the application.
