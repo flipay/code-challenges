@@ -6,6 +6,8 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 ### Context
 
+<img align="right" width="275" height="537" src="./images/sample-buy-screen.png">
+
 You got into the team which is building the cryptocurrency exchange platform for users. The users can use the platform to buy and sell cryptocurrency through any existing exchanges.
 
 The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing system to plug to the existing system.
