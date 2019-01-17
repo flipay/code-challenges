@@ -10,7 +10,7 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 You got into the team which is building the cryptocurrency exchange platform for users. The users can use the platform to buy and sell cryptocurrency through any existing exchanges.
 
-The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing system to plug to the existing system.
+The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing application to plug to the existing system.
 
 ### Requirements
 
@@ -45,9 +45,9 @@ The possible "Input-Output assets" are `BTC-USD`, `ETH-USD`. And it can be rever
 
 The "Average Price" in the output will be determined by the ratio of input and output amount in USD. In the case of `BTC-USD`, it will be the number of `USD amount / BTC amount`. And the output amount will be determined by active orders in the order book.
 
-Don't worry if this confused you, you can take a look at our explanation in [Understanding exchange price caculation](./docs/understanding-exchange-price.md).
-
 Note that the reason we need "Input amount" is because the "Average Price" can vary depends on how much input amount users give.
+
+Don't worry if this confused you, you can take a look at our explanation in [Understanding exchange price calculation](./docs/understanding-exchange-price.md).
 
 ### Resources
 
