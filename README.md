@@ -10,11 +10,11 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 You got into the team which is building the cryptocurrency exchange platform for users. The users can use the platform to buy and sell cryptocurrency through any existing exchanges.
 
-The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing application to plug to the existing system.
+The team got the idea to let users buy and sell at the best rate by selecting the exchange with the best rate at the time. And you took the challenge to develop this rate comparing application to plug to the existing application as in the image on the right.
 
 ### Requirements
 
-The scope of the challenge is to build the application or library to able to determine the rate of buying and selling from the Coinbase Pro cryptocurrency exchange. Comparing rate is not in the scope. And it should be taken into consideration that new exchanges can be added later on.
+The scope of the challenge is to build the application or library to able to determine the rate of buying and selling from the Coinbase Pro cryptocurrency exchange. Comparing rate is not included in the scope. And it possible that new exchanges can be added later on.
 
 The application will receive these input
 
