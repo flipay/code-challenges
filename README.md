@@ -14,7 +14,7 @@ The team got the idea to let users buy and sell at the best rate by selecting th
 
 ### Requirements
 
-The scope of the challenge is to build the application or library to able to determine the rate of buying and selling from the Coinbase Pro cryptocurrency exchange. Comparing rate is not included in the scope. And it possible that new exchanges can be added later on.
+The scope of the challenge is to build the application or library to able to determine the rate of buying and selling from the Coinbase Pro cryptocurrency exchange. Comparing rate is not included in the scope. And the new exchanges can be added later on.
 
 The application will receive these input
 
