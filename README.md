@@ -1,6 +1,6 @@
 # Flipay Code Challenge
 
-We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **Elixir or NodeJS** and send us the link to your repository to career@flipay.co
+We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **Elixir, Ruby or NodeJS** and send us the link to your repository to career@flipay.co
 
 ## Challenge
 
