@@ -1,4 +1,4 @@
-# Flipay Code Challenge
+# Flipay Mobile Code Challenge
 
 We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **iOS or Android** pltform and send us the link to your repository to career@flipay.co
 
@@ -32,10 +32,11 @@ The application is expected to receive "Input Amount" in USD from users.
 
 And expect to display these output,
 
-1. Average price (USD/BTC)
-2. Output amount (in BTC)
+1. Output amount (in BTC)
+2. Average price (USD/BTC)
 
-Please not that in the future, the users will also be able to change the input currency, output currency and exchange.
+
+Please note that in the future, the users will also be able to change the input currency, output currency and exchange.
 
 
 ### How to calculate Average Price?
