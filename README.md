@@ -2,6 +2,8 @@
 
 We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please develop the solution with **Elixir, Golang, Ruby or NodeJS** and send us the link to your repository to career@flipay.co
 
+For mobile developers, please take a look at [Flipay Mobile Code Challenge](./challenge-mobile.md)
+
 ## Challenge
 
 ### Context
