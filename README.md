@@ -63,7 +63,7 @@ And we value these principles in the development.
 
 **• Security.** To build trust in the product, security is the most important aspect. A financial company can go out of business in a single attack.  
 **• Simplicity.** It is easy to build complex things. We should strive for simplicity so that we can maintain the speed of change.  
-**• Clarity.** In the team collaboration, we rarely have the exact same context in the communication. Writing code with a clear objective and good readability help team effectiveness.  
+**• Clarity.** In the team collaboration, we rarely have the same context in communication. Writing code with a clear objective and good readability help team effectiveness.  
 **• Reliability.** What can go wrong, will go wrong. But not with the system which has been through the well-thought process of risk and error management.
 
 Certainly, we never expected anything to be perfect, we need to be fast to maximize the learning to be able to maximize the values we can deliver to the world. And feel free to be creative on the solution as long as it satisfies the objective of the application.
