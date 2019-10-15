@@ -8,23 +8,27 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 <img align="right" width="275" height="537" src="./images/mobile-mockup-screen.png">
 
-You got into the team which is building the cryptocurrency exchange platform for users. The users can use the platform to buy and sell cryptocurrency through any existing exchanges.
+The project is in the early stage and need to test the idea with real users. 
 
-The team had an idea to display users the expected output of buying and selling before submitting the order as in the mockup image.   
+We have the assumption that existing cryptocurrency application to buy and sell cryptocurrency without the knowledge about bid and offer.
+
+You got into the team which is building the easy-to-use cryptocurrency trading application.
+
+
+
+The team had an idea to display users the expected output of buying and selling before submitting the order as in the mockup image. 
+
 
 
 ### Requirements
 
-The scope of the challenge is to build a simple mobile application that can determine the rate of buying and selling from the Coinbase Pro cryptocurrency exchange. And the new exchanges can be added later on.
+The scope of the challenge is to build a 1-screen mobile application that can determine the rate of buying Bitcoin from the Coinbase Pro cryptocurrency exchange by using its Restful API.
 
+The output and price should be updated every 5 seconds.
 
-**User Story**
+** Objective **
 
-> As a casual investor,  
->
-> I want to see the average price and expected amount of cryptocurrency I am buying.
->
-> So that I can decide on buying and selling better by seeing this information instead of not knowing the result on the usual market order.
+To test whether investors feel good about the experience interact with the trading system.
 
 **More Details**
 
@@ -33,10 +37,11 @@ The application is expected to receive "Input Amount" in USD from users.
 And expect to display these output,
 
 1. Output Amount (in BTC)
-2. Average Price (USD/BTC)
+2. Average Price (USD)
 
+User
 
-Please note that in the future, the users will also be able to change the input currency, output currency, and exchange.
+Please note that in the future, the users will also be able to buy and sell other cryptocurrencies than Bitcoin.
 
 
 ### How to calculate Average Price?
@@ -53,7 +58,7 @@ See [Coinbase Pro documentation](https://docs.pro.coinbase.com) for integration 
 
 ## Our Expectation
 
-We expected to see the production-leveled code with proper testing. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
+We expect to see the maintainable code with proper testing so that we can expand to test more. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
 
 And we value these principles in the development.
 
