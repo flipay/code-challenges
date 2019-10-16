@@ -10,7 +10,7 @@ We think that existing cryptocurrency trading platforms are too complicated. A l
 
 Currently, users need to know complex things in order to buy cryptocurrencies which bid, offer and orderbook are the big parts of that complexity.  
 
-Our idea is to hide those complexity and allow users to buy Bitcoin by just specifying the amount they want to buy and sell.
+Our idea is to hide those complexity and allow users to buy Bitcoin by just specifying the amount they want to buy.
 
 ### Scope of the test
 
@@ -35,7 +35,7 @@ And expect to display these output,
 1. Output Amount (in BTC)
 2. Average Price (USD)
 
-More detail, this is the first screen of the whole application. Later on, users will be able to sell Bitcoin, deposit, withdraw USD and so on which are not in the scope of this application.
+More detail, this is the first screen of the whole application. Later on, users will be able to sell Bitcoin, deposit, withdraw USD and so on which are not in the scope of this challenge.
 
 ### How to calculate Average Price?
 
@@ -51,7 +51,7 @@ See [Coinbase Pro documentation](https://docs.pro.coinbase.com) for integration 
 
 ## Our Expectation
 
-We expect to see the production-ready code. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
+We expect to see the maintainable code which works correctly. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
 
 And we value these principles in the development.
 
@@ -61,7 +61,7 @@ And we value these principles in the development.
 **• Reliability.** What can go wrong, will go wrong. But not with the system which has been through the well-thought process of risk and error management.
 **• Product.** Engineers are not coders, they should be able to see a big picture of the products. They should understand why users need it and what is the reason behind each feature.
 
-Extra points for developers who has design skill, you can show it by adjusting the design as you see fit.  
+**Extra points** for developers who have design skill, you can show it by adjusting the design as you see fit.  
 
 Certainly, we never expected anything to be perfect, we need to be fast to maximize the learning to be able to maximize the values we can deliver to the world. And feel free to be creative on the solution as long as it satisfies the objective of the application.
 
