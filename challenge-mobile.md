@@ -6,43 +6,43 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 ### Context
 
+We think that existing cryptocurrency trading platforms are too complicated and our idea is to build a easy-to-use mobile application for buying/selling cryptocurrencies using US Dollar (USD). 
+
+Currently, users need to know complex things in order to buy cryptocurrencies and Bid, Offer and orderbook are the big parts of that complexity.  
+
+Our idea is to hide those complexity and allow users to buy and sell cryptocurrencies by just specifying the amount they want to buy and sell.
+
+### Idea
+
 <img align="right" width="275" height="537" src="./images/mobile-mockup-screen.png">
 
-The project is in the early stage and need to test the idea with real users. 
+- A user wants to buy Bitcoin with 1,000 USD, what he/she needs to do is to put 1000 USD and see the crypto he/she gonna get and then press Buy button to finish.
 
-We have the assumption that existing cryptocurrency application to buy and sell cryptocurrency without the knowledge about bid and offer.
-
-You got into the team which is building the easy-to-use cryptocurrency trading application.
+- A user wants to sell 1 Bitcoin, what he/she needs to do is to put 1 Bitcoin and see how much in USD he/she will get, if he/she is happy with it, he/she will press Sell Button.
 
 
-
-The team had an idea to display users the expected output of buying and selling before submitting the order as in the mockup image. 
-
-
-
-### Requirements
+### Scope of the test
 
 The scope of the challenge is to build a 1-screen mobile application that can determine the rate of buying Bitcoin from the Coinbase Pro cryptocurrency exchange by using its Restful API.
 
+As you can see from the design, users just need to put the amount they want to buy in USD and then they should be able to see the cryptocurrency amount they gonna get if they press the Buy button.
+
+Users won't be able specify the output amount by themselves, we think that it will add more complexity. 
+
 The output and price should be updated every 5 seconds.
-
-** Objective **
-
-To test whether investors feel good about the experience interact with the trading system.
 
 **More Details**
 
-The application is expected to receive "Input Amount" in USD from users.  
+The application is expected to receive "Buy Amount" in USD from users.  
 
 And expect to display these output,
 
 1. Output Amount (in BTC)
 2. Average Price (USD)
 
-User
-
-Please note that in the future, the users will also be able to buy and sell other cryptocurrencies than Bitcoin.
-
+Please note that this is the fist screen of the whole application, Later on...
+- Users will be able to buy cryptocurrencies than Bitcoin using USD.
+- Users will be able to SELL any cryptocurrencies by specify the selling amount in cryptocurrency.
 
 ### How to calculate Average Price?
 
@@ -58,7 +58,7 @@ See [Coinbase Pro documentation](https://docs.pro.coinbase.com) for integration 
 
 ## Our Expectation
 
-We expect to see the maintainable code with proper testing so that we can expand to test more. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
+We expect to see the production-ready code. We have no development time requirement, so you can take a reasonable time to work on this challenge to show us your capability.
 
 And we value these principles in the development.
 
