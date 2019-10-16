@@ -6,11 +6,11 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 ### Context
 
-We think that existing cryptocurrency trading platforms are too complicated. A lot of people want to hold Bitcoin but they don't understand how to use those exchanges. **They just want Bitcoin**
+We think that existing cryptocurrency trading platforms are too complicated. A lot of people want to hold Bitcoin but they don't understand how to use those exchanges. **They just want Bitcoin.**
 
-Currently, users need to know complex things in order to buy cryptocurrencies which bid, offer and orderbook are the big parts of that complexity.  
+Currently, users need to know complex things in order to buy Bitcoin which bid, offer and orderbook concepts are the big parts of those complexities.  
 
-Our idea is to hide those complexity and allow users to buy Bitcoin by just specifying the amount they want to buy.
+Our idea is to hide those complexities and allow users to buy Bitcoin by just specifying the amount they want to buy.
 
 ### Scope of the test
 
@@ -24,7 +24,7 @@ Users won't be able specify the output amount by themselves, we think that it wi
 
 The output and price should be updated every 5 seconds.
 
-Buy button doesn't have to work for now.
+The Buy button doesn't have to work for now.
 
 **More Details**
 
@@ -35,7 +35,7 @@ And expect to display these output,
 1. Output Amount (in BTC)
 2. Average Price (USD)
 
-More detail, this is the first screen of the whole application. Later on, users will be able to sell Bitcoin, deposit, withdraw USD and so on which are not in the scope of this challenge.
+More detail, this is the first screen of the whole application. Later on, users will be able to sell Bitcoin which are not in the scope of this challenge and we don't have the plan to add more kinds of cryptocurrencies in the near future (3 years). 
 
 ### How to calculate Average Price?
 
