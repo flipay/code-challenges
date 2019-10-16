@@ -59,6 +59,7 @@ And we value these principles in the development.
 **• Simplicity.** It is easy to build complex things. We should strive for simplicity so that we can maintain the speed of change.  
 **• Clarity.** In the team collaboration, we rarely have the same context in communication. Writing code with a clear objective and good readability help team effectiveness.  
 **• Reliability.** What can go wrong, will go wrong. But not with the system which has been through the well-thought process of risk and error management.
+
 **• Product.** Engineers are not coders, they should be able to see a big picture of the products. They should understand why users need it and what is the reason behind each feature.
 
 **Extra points** for developers who have design skill, you can show it by adjusting the design as you see fit.  
