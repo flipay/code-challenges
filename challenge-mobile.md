@@ -6,22 +6,15 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 ### Context
 
-We think that existing cryptocurrency trading platforms are too complicated and our idea is to build a easy-to-use mobile application for buying/selling cryptocurrencies using US Dollar (USD). 
+We think that existing cryptocurrency trading platforms are too complicated. A lot of people want to hold Bitcoin but they don't understand how to use those exchanges. **They just want Bitcoin**
 
-Currently, users need to know complex things in order to buy cryptocurrencies and Bid, Offer and orderbook are the big parts of that complexity.  
+Currently, users need to know complex things in order to buy cryptocurrencies which bid, offer and orderbook are the big parts of that complexity.  
 
-Our idea is to hide those complexity and allow users to buy and sell cryptocurrencies by just specifying the amount they want to buy and sell.
-
-### Idea
-
-<img align="right" width="275" height="537" src="./images/mobile-mockup-screen.png">
-
-- A user wants to buy Bitcoin with 1,000 USD, what he/she needs to do is to put 1000 USD and see the crypto he/she gonna get and then press Buy button to finish.
-
-- A user wants to sell 1 Bitcoin, what he/she needs to do is to put 1 Bitcoin and see how much in USD he/she will get, if he/she is happy with it, he/she will press Sell Button.
-
+Our idea is to hide those complexity and allow users to buy Bitcoin by just specifying the amount they want to buy and sell.
 
 ### Scope of the test
+
+<img align="right" width="275" height="537" src="./images/mobile-mockup-screen.png">
 
 The scope of the challenge is to build a 1-screen mobile application that can determine the rate of buying Bitcoin from the Coinbase Pro cryptocurrency exchange by using its Restful API.
 
@@ -30,6 +23,8 @@ As you can see from the design, users just need to put the amount they want to b
 Users won't be able specify the output amount by themselves, we think that it will add more complexity. 
 
 The output and price should be updated every 5 seconds.
+
+Buy button doesn't have to work for now.
 
 **More Details**
 
@@ -40,9 +35,7 @@ And expect to display these output,
 1. Output Amount (in BTC)
 2. Average Price (USD)
 
-Please note that this is the fist screen of the whole application, Later on...
-- Users will be able to buy cryptocurrencies than Bitcoin using USD.
-- Users will be able to SELL any cryptocurrencies by specify the selling amount in cryptocurrency.
+More detail, this is the first screen of the whole application. Later on, users will be able to sell Bitcoin, deposit, withdraw USD and so on which are not in the scope of this application.
 
 ### How to calculate Average Price?
 
@@ -66,6 +59,9 @@ And we value these principles in the development.
 **• Simplicity.** It is easy to build complex things. We should strive for simplicity so that we can maintain the speed of change.  
 **• Clarity.** In the team collaboration, we rarely have the same context in communication. Writing code with a clear objective and good readability help team effectiveness.  
 **• Reliability.** What can go wrong, will go wrong. But not with the system which has been through the well-thought process of risk and error management.
+**• Product.** Engineers are not coders, they should be able to see a big picture of the products. They should understand why users need it and what is the reason behind each feature.
+
+Extra points for developers who has design skill, you can show it by adjusting the design as you see fit.  
 
 Certainly, we never expected anything to be perfect, we need to be fast to maximize the learning to be able to maximize the values we can deliver to the world. And feel free to be creative on the solution as long as it satisfies the objective of the application.
 
