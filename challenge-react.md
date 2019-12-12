@@ -9,7 +9,7 @@ We believe one of the best ways to understand the engineering team fit is to see
 - Use the [GitHub API](https://developer.github.com/v3/repos/#list-all-public-repositories) to list all public repositories.
 - Show 10 repositories in a table with all the information that you judge necessary.
 - Add pagination to allow the user to navigate the repositories, 10 per page.
-- No need to make to beautiful, focus on using API.
+- No need to be beautiful, focus on using API.
 
 ## 2nd Challenge
 
