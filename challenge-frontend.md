@@ -2,7 +2,7 @@
 
 # Front-end Developer Code Challenge
 
-We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please conplete it using **React** framework and submit the your repo link to career@flipay.co . 
+We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please conplete it using **React** framework and submit your repo link to career@flipay.co . 
 
 ## 1st Challenge
 
