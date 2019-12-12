@@ -2,7 +2,7 @@
 
 # Front-end Developer Code Challenge
 
-We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please conplete it using **React** framework and submit your repo link to career@flipay.co . 
+We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Please complete it using the **React** framework and submit your repo link to career@flipay.co . 
 
 ## 1st Challenge
 
@@ -13,7 +13,7 @@ We believe one of the best ways to understand the engineering team fit is to see
 
 ## 2nd Challenge
 
-Create a front-end application allowing a user to paste a JSON formatted in a specific way (see Input) and display the cleaned version (see Ouput).
+Create a front-end application allowing a user to paste a JSON formatted in a specific way (see Input) and display the cleaned version (see Output).
 
 - Create a JavaScript application using React (and any other library/tool you want/need).
 - The application must have an editable field where the user can paste a formatted JSON (Input).
