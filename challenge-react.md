@@ -1,14 +1,17 @@
 
 
+# React Developer Code Challenge
 
-# 1st Challenge
+We believe one of the best ways to understand the engineering team fit is to see the solution and thought process on the problem. Once you have finised it, please send us the link to your repository to career@flipay.co . 
+
+## 1st Challenge
 
 - Use the [GitHub API](https://developer.github.com/v3/repos/#list-all-public-repositories) to list all public repositories.
 - Show 10 repositories in a table with all the information that you judge necessary.
 - Add pagination to allow the user to navigate the repositories, 10 per page.
 - No need to make to beautiful, focus on using API.
 
-# 2nd Challenge
+## 2nd Challenge
 
 Create a front-end application allowing a user to paste a JSON formatted in a specific way (see Input) and display the cleaned version (see Ouput).
 
@@ -21,7 +24,7 @@ https://drive.google.com/file/d/1wyEW8v9llywge7S50eYlkAgYJ6fG4Ipg/view?usp=shari
 (feel free to ignore it and do your own if you can do something better, this is just to give you a better idea of what's expected).
 - (Bonus) Show off your CSS skills by making it look good.
 
-## Input
+### Input
 
 ```
 {"0": 
@@ -64,7 +67,7 @@ https://drive.google.com/file/d/1wyEW8v9llywge7S50eYlkAgYJ6fG4Ipg/view?usp=shari
     "parent_id": 12}]}
 ```
 
-## Output
+### Output
 
 ```
 [{"id": 10,
@@ -105,7 +108,7 @@ https://drive.google.com/file/d/1wyEW8v9llywge7S50eYlkAgYJ6fG4Ipg/view?usp=shari
 ```
 
 
-# Our Expectation
+## Our Expectation
 
 - Write clean, readable and well-structured code.
 - Version-control with Git and write good commit messages.
